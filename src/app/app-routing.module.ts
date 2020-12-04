@@ -9,13 +9,12 @@ const routes: Routes = [
   { path: 'portafolio', component: PortafolioComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact-us', component: ContactUsComponent },
-  { path: 'item', component: ItemComponent },
-  { path: '**', pathMatch: 'full', redirectTo: '' },
+  { path: 'item/:id', component: ItemComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'portafolio' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule],
 })
-
 export class AppRoutingModule {}

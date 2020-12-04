@@ -2,7 +2,7 @@
   <!-- 1 -->
   <br />
   <div align="center" *ngIf="productosService.cargando">
-    <h2>Cargando</h2>
+    <h1>Cargando</h1>
 
     <div class="loader loader--style1" title="0">
       <svg
@@ -52,11 +52,11 @@
   >
     <a
       *ngFor="let producto of productosService.productos"
-      routerLink="/item"
+      [routerLink]="['/item', producto.cod]"
       class="animate__animated animate__zoomIn rk-item ae-masonry__item"
     >
       <img src="assets/productos/{{ producto.url }}.jpg" alt="" />
-      <div class="item-meta">
+      <div [routerLink]="['/item', producto.cod]" class="item-meta">
         <h2>{{ producto.titulo }}</h2>
         <p>{{ producto.categoria }}</p>
       </div>
