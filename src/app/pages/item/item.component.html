@@ -5,7 +5,7 @@
     }"
     class="rk-portfolio-cover item-inside-1"
   >
-    <div class="item-inside__meta">
+    <div class="item-inside__meta" style="position: relative; top: 5rem">
       <h1 class="ae-u-bolder rk-portfolio-title">{{ producto.producto }}</h1>
       <p class="ae-theta rk-portfolio-category">{{ producto.categoria }}</p>
     </div>
@@ -39,9 +39,9 @@
   </div>
   <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
     <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
-      <div class="ae-grid__item item-lg-5 au-lg-ptp-1">
+      <div class="ae-grid__item item-lg-5">
         <h4 class="ae-u-bolder">{{ producto.subtitulo2 }}</h4>
-        <p class="ae-eta">
+        <p class="desc-1">
           {{ producto.desc1 }}
         </p>
       </div>
@@ -53,9 +53,9 @@
       <div class="ae-grid__item item-lg-8">
         <img src="assets/productos/{{ id }}/pic-2.jpg" alt="Urku Portfolio" />
       </div>
-      <div class="ae-grid__item item-lg-3 item-lg--offset-1 au-lg-ptp-1">
+      <div class="ae-grid__item item-lg-3 item-lg--offset-1">
         <br />
-        <p>
+        <p class="desc-2">
           {{ producto.desc2 }}
         </p>
       </div>
@@ -63,7 +63,7 @@
     <div class="ae-grid ae-grid--collapse au-xs-ptp-1 au-xs-pbp-1">
       <div class="ae-grid__item item-lg-8 item-lg--offset-2">
         <h4 class="ae-u-bolder">{{ producto.subtitulo3 }}</h4>
-        <p class="ae-eta">
+        <p class="desc-3">
           {{ producto.desc3 }}
         </p>
       </div>
@@ -73,7 +73,7 @@
         <img src="assets/productos/{{ id }}/pic-3.jpg" alt="Urku Portfolio" />
         <br />
         <br />
-        <h4>{{ producto.conclusion }}</h4>
+        <h5>{{ producto.conclusion }}</h5>
       </div>
     </div>
   </div>
