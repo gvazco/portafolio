@@ -44,7 +44,7 @@ body {
   position: static;
 }
 .top-fixed .rk-main {
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 @media (min-width:){
 
@@ -62,7 +62,7 @@ body {
 }
 .top-fixed .rk-header {
   position: fixed;
-  height:100px;
+  height:120px;
 }
 
 .rk-topbar {
