@@ -1369,7 +1369,7 @@ body {
 } */
 @media (min-width: 40em) {
   .item-inside-1 {
-    background-size: 140%;
+    background-size: 120%;
     background-position: 50% 70%;
     background-repeat: no-repeat;
   }
