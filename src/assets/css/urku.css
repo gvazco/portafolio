@@ -1369,7 +1369,8 @@ body {
 } */
 @media (min-width: 40em) {
   .item-inside-1 {
-    background-size: 110%;
+    background-size: 180%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
   }
 }
