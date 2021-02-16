@@ -62,6 +62,7 @@ body {
 }
 .top-fixed .rk-header {
   position: fixed;
+  height:100px;
 }
 
 .rk-topbar {
@@ -1323,6 +1324,9 @@ body {
 
 .item-inside__meta {
   text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
 }
 .item-inside__meta--contrast:before {
   background-color: rgba(255, 255, 255, .3);
