@@ -1369,15 +1369,13 @@ body {
 } */
 @media (min-width: 40em) {
   .item-inside-1 {
-    background-size: 160%;
-    background-position: 50% 60%;
+    background-size: 140%;
+    background-position: 50% 70%;
     background-repeat: no-repeat;
   }
 }
 
-/* .post-inside-1 {
-  /* background-image: url("../img/post-1.jpg"); */
-} */
+
 
 #layout-grid:checked ~ .rk-portfolio,
 #layout-grid:checked ~ .rk-blog {
