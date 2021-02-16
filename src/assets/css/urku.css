@@ -1325,8 +1325,8 @@ body {
 .item-inside__meta {
   text-align: center;
   background-color: rgba(255, 255, 255, .5);
-  padding: 20px;
-  /* border-radius: 20px; */
+  padding: 20px 10px 0px;
+  width: 100%;
 }
 .item-inside__meta--contrast:before {
   background-color: rgba(255, 255, 255, .3);
