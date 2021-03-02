@@ -19,7 +19,7 @@ export class ProductosService {
 
    private cargarProductos() {
 
-    return new Promise((resolve, reject) =>{
+    return new Promise<void>((resolve, reject) =>{
       
       this.http.get('https://portafolio-alexis.firebaseio.com/productos_idx.json')
           .subscribe( (resp: Producto[]) => {
