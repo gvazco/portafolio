@@ -4,12 +4,14 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { ItemComponent } from './pages/item/item.component';
+import { SearchComponent } from './pages/search/search.component';
 
 const routes: Routes = [
   { path: 'portafolio', component: PortafolioComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'project/:id', component: ItemComponent },
+  { path: 'search/:termino', component: SearchComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'portafolio' },
 ];
 

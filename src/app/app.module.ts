@@ -14,6 +14,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
     AboutComponent,
     ItemComponent,
     ContactUsComponent,
+    SearchComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
